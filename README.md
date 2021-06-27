@@ -26,3 +26,5 @@
 Собранный Maven пакет в /target*
 
 Тесты сервисов и утилит приведены в src/test
+
+Расширенная версия https://github.com/kleshnya-1/ShippingApp_fullProject
