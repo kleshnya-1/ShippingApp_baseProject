@@ -27,4 +27,4 @@
 
 Тесты сервисов и утилит приведены в src/test
 
-Расширенная версия https://github.com/kleshnya-1/ShippingApp_fullProject
+Расширенная версия в процессе на https://github.com/kleshnya-1/ShippingApp_fullProject
