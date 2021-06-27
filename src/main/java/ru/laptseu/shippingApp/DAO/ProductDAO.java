@@ -1,15 +1,10 @@
 package ru.laptseu.shippingApp.DAO;
 
 import lombok.extern.log4j.Log4j2;
-import ru.laptseu.shippingApp.Z_HZKUDA.AddressUpdatable;
-import ru.laptseu.shippingApp.Z_HZKUDA.Categories;
-import ru.laptseu.shippingApp.Z_HZKUDA.DataAccessInterface;
-import ru.laptseu.shippingApp.models.Client;
+import ru.laptseu.shippingApp.models.Categories;
 import ru.laptseu.shippingApp.models.Product;
 
-import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.NoSuchElementException;
 
 @Log4j2

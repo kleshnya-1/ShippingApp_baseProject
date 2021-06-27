@@ -8,7 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import ru.laptseu.shippingApp.DAO.ClientDAO;
 import ru.laptseu.shippingApp.DAO.OrderDAO;
 import ru.laptseu.shippingApp.DAO.ProductDAO;
-import ru.laptseu.shippingApp.Z_HZKUDA.Categories;
+import ru.laptseu.shippingApp.models.Categories;
 import ru.laptseu.shippingApp.models.Client;
 import ru.laptseu.shippingApp.models.Order;
 import ru.laptseu.shippingApp.models.Product;
@@ -30,6 +30,10 @@ class OrderDAOTest {
 
     @BeforeEach
     void before() throws Exception {
+        ProductDAO productDAO = new ProductDAO();
+        ClientDAO clientDAO = new ClientDAO();
+        OrderDAO orderDAO = new OrderDAO();
+
         Client clientTEST0 = new Client("test name 0", "Test street0");
         Client clientTEST1 = new Client("test name 1", "Test street1");
 
@@ -40,8 +44,6 @@ class OrderDAOTest {
         Product testProduct4 = new Product("testProduct4", 20, 1, "shopIdTest", Categories.ELECTRONICS);
         Product testProduct5 = new Product("testProduct5", 10, 5, "shopIdTest", Categories.MATERIALS);
 
-
-        ProductDAO productDAO = new ProductDAO();
         productDAO.add(testProduct0);
         productDAO.add(testProduct1);
         productDAO.add(testProduct2);
@@ -64,8 +66,7 @@ class OrderDAOTest {
 
         testOrder0.setId("testIdForOrder");
         testOrder00=testOrder0;
-        OrderDAO orderDAO = new OrderDAO();
-        ClientDAO clientDAO = new ClientDAO();
+
         clientDAO.reset();
         orderDAO.reset();
         productDAO.reset();

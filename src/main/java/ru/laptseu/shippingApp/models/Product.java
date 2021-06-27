@@ -1,7 +1,6 @@
 package ru.laptseu.shippingApp.models;
 
 import lombok.Data;
-import ru.laptseu.shippingApp.Z_HZKUDA.Categories;
 import ru.laptseu.shippingApp.utilites.IdCreator;
 
 import java.io.Serializable;

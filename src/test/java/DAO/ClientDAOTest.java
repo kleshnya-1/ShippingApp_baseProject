@@ -1,4 +1,4 @@
-//import org.junit.Assert;
+package DAO;
 import org.junit.jupiter.api.*;
 import ru.laptseu.shippingApp.DAO.ClientDAO;
 import ru.laptseu.shippingApp.models.Client;

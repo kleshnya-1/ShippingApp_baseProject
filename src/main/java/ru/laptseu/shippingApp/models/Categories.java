@@ -1,4 +1,4 @@
-package ru.laptseu.shippingApp.Z_HZKUDA;
+package ru.laptseu.shippingApp.models;
 
 public enum Categories {
         ELECTRONICS(0),

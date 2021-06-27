@@ -1,7 +1,7 @@
 package ru.laptseu.shippingApp.services;
 
 import ru.laptseu.shippingApp.DAO.ProductDAO;
-import ru.laptseu.shippingApp.Z_HZKUDA.Categories;
+import ru.laptseu.shippingApp.models.Categories;
 import ru.laptseu.shippingApp.models.Product;
 import ru.laptseu.shippingApp.utilites.SorterByPrice;
 
@@ -21,11 +21,31 @@ public class ProductService {
     }
 
     public void printSortedByPrice(int direction){
+        System.out.println("\n List of products sorted by price:");
         for (Product p:getSortedByPrice(direction)){
             System.out.println(p);
         }
+    }
 
-       // System.out.println(getSortedByPrice(direction));
+    public ArrayList findByAttribute(String name, double price){
+        //short attribute list
+        ArrayList<Product> list = (ArrayList<Product>) productDAO.getAll().clone();
+        ArrayList<Product> listForReturning =new ArrayList<>();
+
+       for (Product o:list){
+           Product p = (Product)o;
+           if (name!=null&& p.getName().equals(name)) listForReturning.add(p);
+           if (price!=-1&& p.getPrice()==price) listForReturning.add(p);
+       }
+       return listForReturning;
+    }
+
+    public void printSortedByAttribute(String name, double price){
+        ArrayList list = findByAttribute(name,price);
+        System.out.println("With attributes found:");
+        for (Object p:list){
+            System.out.println(p);
+        }
     }
 
     public ArrayList<Product> getProductsInCategories(Categories... categories){
@@ -34,7 +54,7 @@ public class ProductService {
 
         for (Categories c: categories){
             for (Product p:list){
-                if (!listForReturning.contains(p)||p.getCategories().contains(c))
+                if (!listForReturning.contains(p)&&p.getCategories().contains(c))
                     listForReturning.add(p);
             }
         }

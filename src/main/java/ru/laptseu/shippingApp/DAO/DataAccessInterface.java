@@ -1,4 +1,4 @@
-package ru.laptseu.shippingApp.Z_HZKUDA;
+package ru.laptseu.shippingApp.DAO;
 
 import ru.laptseu.shippingApp.models.Client;
 

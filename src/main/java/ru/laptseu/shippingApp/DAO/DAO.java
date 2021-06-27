@@ -1,7 +1,6 @@
 package ru.laptseu.shippingApp.DAO;
 
 import lombok.Data;
-import ru.laptseu.shippingApp.Z_HZKUDA.MapGetter;
 import ru.laptseu.shippingApp.utilites.Reader;
 import ru.laptseu.shippingApp.utilites.Writer;
 

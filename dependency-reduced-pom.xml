@@ -38,7 +38,7 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
-      <scope>ClientDAOTest</scope>
+      <scope>DAO.ClientDAOTest</scope>
       <exclusions>
         <exclusion>
           <artifactId>hamcrest-core</artifactId>
@@ -50,7 +50,7 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>5.8.0-M1</version>
-      <scope>ClientDAOTest</scope>
+      <scope>DAO.ClientDAOTest</scope>
       <exclusions>
         <exclusion>
           <artifactId>apiguardian-api</artifactId>

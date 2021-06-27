@@ -5,12 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.extension.ExtendWith;
-import ru.laptseu.shippingApp.DAO.ClientDAO;
 import ru.laptseu.shippingApp.DAO.ProductDAO;
 import ru.laptseu.shippingApp.DAO.ShopDAO;
-import ru.laptseu.shippingApp.Z_HZKUDA.Categories;
-import ru.laptseu.shippingApp.models.Client;
+import ru.laptseu.shippingApp.models.Categories;
 import ru.laptseu.shippingApp.models.Product;
 import ru.laptseu.shippingApp.models.Shop;
 

@@ -1,10 +1,7 @@
 package ru.laptseu.shippingApp.DAO;
 
 import lombok.extern.log4j.Log4j2;
-import ru.laptseu.shippingApp.Z_HZKUDA.DataAccessInterface;
-import ru.laptseu.shippingApp.models.Client;
 import ru.laptseu.shippingApp.models.Order;
-import ru.laptseu.shippingApp.models.Shop;
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;

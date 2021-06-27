@@ -5,12 +5,11 @@ import lombok.extern.log4j.Log4j2;
 import ru.laptseu.shippingApp.DAO.ClientDAO;
 import ru.laptseu.shippingApp.DAO.ProductDAO;
 import ru.laptseu.shippingApp.DAO.ShopDAO;
-import ru.laptseu.shippingApp.Z_HZKUDA.Categories;
+import ru.laptseu.shippingApp.models.Categories;
 import ru.laptseu.shippingApp.models.Client;
 import ru.laptseu.shippingApp.models.Product;
 import ru.laptseu.shippingApp.models.Shop;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 @Log4j2
