@@ -1,0 +1,33 @@
+
+Š
+java:S1319#"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(¥ˆıÿÿÿÿ
+Š
+java:S13197"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(××Êüùÿÿÿÿ
+i
+java:S2095;"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÒÓá—úÿÿÿÿ
+i
+java:S2095Q"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÒÓá—úÿÿÿÿ
+k
+java:S2095("PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(¥€ë˜øÿÿÿÿ
+p
+java:S2095'"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÒÓá—úÿÿÿÿ8„­ ù£/
+k
+java:S2095R"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(¥€ë˜øÿÿÿÿ
+r
+java:S2095<"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(¥€ë˜øÿÿÿÿ8„­ ù£/
+J
+java:S3740#"/Provide the parametrized type for this generic.(¥ˆıÿÿÿÿ
+J
+java:S37407"/Provide the parametrized type for this generic.(××Êüùÿÿÿÿ
+h
+java:S1192."KDefine a constant instead of duplicating this literal " not found" 3 times.(°®–ú8„­ ù£/
+k
+java:S1192."NDefine a constant instead of duplicating this literal "JSON file in " 3 times.(°®–ú8„­ ù£/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğº„ñüÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÁÏ«ùÿÿÿÿ
+J
+java:S6212("/Declare this local variable with "var" instead.(¥€ë˜øÿÿÿÿ
+J
+java:S6212<"/Declare this local variable with "var" instead.(¥€ë˜øÿÿÿÿ
+Q
+java:S6212R"/Declare this local variable with "var" instead.(¥€ë˜øÿÿÿÿ8‘­ ù£/
